@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 body {
-  background-color: #E7E7E7 !important;
+  background-color: #e7e7e7 !important;
   font-size: 1em;
   font-family: "Roboto";
 }
-html,body{
+html,
+body {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
@@ -14,7 +15,7 @@ html,body{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #E7E7E7;
+  background-color: #e7e7e7;
   padding: 1.5em 0;
 }
 .customHeader .headerInput {
@@ -32,7 +33,8 @@ html,body{
 }
 
 /* Navbar */
-.customNavbar,.navBar {
+.customNavbar,
+.navBar {
   background-color: red;
 }
 .customNavbar .navbar-brand {
@@ -203,7 +205,7 @@ html,body{
   border: 1px solid gray;
   padding: 0.8em 1em;
 }
-.termDiv a{
+.termDiv a {
   color: black;
 }
 .borderDiv p {
@@ -304,6 +306,9 @@ html,body{
   text-align: center;
   padding: 0.8em 0;
 }
+.colorInput .commonInput {
+  background-color: white;
+}
 
 /* Footer */
 .pageFooter {
@@ -327,13 +332,13 @@ html,body{
   color: red;
 }
 
-.uploadLogo{
+.uploadLogo {
   display: flex;
   align-items: center;
   gap: 1.5em;
   margin: 1em 0;
 }
-.uploadLogo label{
+.uploadLogo label {
   width: 1.5em;
   height: 1.5em;
   background-color: rgba(0, 0, 0, 0.562);
@@ -347,37 +352,37 @@ html,body{
   transition: all ease-in-out 200ms;
   padding-bottom: 5px;
 }
-.uploadLogo label:hover{
+.uploadLogo label:hover {
   background-color: rgba(0, 0, 0, 0.788);
 }
 
-.mainTitle{
+.mainTitle {
   font-size: 1.3em;
   font-weight: 500;
   line-height: 7px;
 }
-.uploadLogo span{
+.uploadLogo span {
   font-size: 0.9em;
 }
-.customInput{
+.customInput {
   width: 100%;
   display: block;
   padding: 1em;
   outline: none;
   border: 1px solid gray;
 }
-.rangeContainer .form-range::-webkit-slider-runnable-track{
+.rangeContainer .form-range::-webkit-slider-runnable-track {
   background-color: rgba(17, 16, 16, 0.623);
 }
-.rangeContainer .form-range::-webkit-slider-thumb{
+.rangeContainer .form-range::-webkit-slider-thumb {
   background-color: red;
   padding: 0.8em;
   transform: translateY(-0.4em);
 }
-.qrCode{
+.qrCode {
   margin-top: 7em;
 }
-.qrCode div{
+.qrCode div {
   background-color: red;
   color: #fff;
   font-size: 1.3em;
@@ -386,8 +391,7 @@ html,body{
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 }
-.backgroundChk input{
-
+.backgroundChk input {
   width: 1.5em;
   height: 1.5em;
   display: inline-block;
@@ -395,14 +399,14 @@ html,body{
   box-shadow: 0px 0px 2px 1px black;
   cursor: pointer;
 }
-.colorInput{
+.colorInput {
   position: relative;
   margin-bottom: 1em;
 }
-.colorInput input{
+.colorInput input {
   margin: 0 !important;
 }
-.colorInput .colorPicker{
+.colorInput .colorPicker {
   position: absolute;
   right: 0;
   top: 0;
@@ -410,27 +414,27 @@ html,body{
   height: 100%;
   padding: 0.2em;
 }
-.colorInput .colorPicker img{
+.colorInput .colorPicker img {
   width: 100%;
   height: 100%;
 }
-.radioContainer input{
+.radioContainer input {
   display: none;
 }
-.radioContainer{
+.radioContainer {
   display: flex;
   align-items: center;
   gap: 2em;
   margin: 2em 0;
 }
-.radioContainer label{
+.radioContainer label {
   display: inline-block;
-width: 2em;
-height: 2em;
-border: 3px solid black;
-position: relative;
+  width: 2em;
+  height: 2em;
+  border: 3px solid black;
+  position: relative;
 }
-.radioContainer label::after{
+.radioContainer label::after {
   content: "";
   width: 1em;
   height: 1em;
@@ -438,9 +442,9 @@ position: relative;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
-.radioContainer label::before{
+.radioContainer label::before {
   content: "\2713";
   width: 1em;
   height: 1em;
@@ -454,29 +458,29 @@ position: relative;
   font-size: 1em;
   font-weight: 500;
 }
-.radioContainer input:checked + label::after{
+.radioContainer input:checked + label::after {
   border-radius: 100px;
 }
-.radioContainer input:checked + label{
+.radioContainer input:checked + label {
   box-shadow: 0px 0px 0px 2px red;
 }
-.radioContainer input:checked + label::before{
+.radioContainer input:checked + label::before {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.subTitle{
+.subTitle {
   font-size: 1.6em;
 }
 /* Media Query */
 @media (max-width: 992px) {
-  .qrCode{
+  .qrCode {
     margin-top: 0em;
   }
-  .mainLogo img{
+  .mainLogo img {
     width: 5em;
   }
-  .termDiv label{
+  .termDiv label {
     font-size: 0.8em;
   }
   .pageContents .toggleContainer {
