@@ -90,6 +90,7 @@ body {
   padding: 1em;
   border-radius: 0.2em;
   margin: 2em 0;
+  padding-left: 0;
 }
 .pageContents h3 label:hover {
   cursor: pointer;
@@ -471,7 +472,6 @@ body {
 }
 .subTitle {
   font-size: 1.6em;
-  margin-left: 0.6em;
 }
 /* Media Query */
 @media (max-width: 992px) {
